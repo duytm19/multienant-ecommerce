@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 import Link from "next/link";
 import { Poppins } from "next/font/google";
 import { usePathname } from "next/navigation";
@@ -47,7 +47,7 @@ export const Navbar = () => {
       <Link href="/" className="pl-6 flex items-center">
         <span
           className={cn("text-5xl font-semibold", poppins.className)}
-        ></span>
+        > funroad</span>
       </Link>
       <NavbarSidebar
       items={navbarItems}
