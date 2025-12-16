@@ -37,14 +37,14 @@ export const NavbarSidebar = ({ items, open, onOpenChange }: Props) => {
           <div className="border-t">
             <Link
               href="/sign-in"
-              className="border-l border-t-0 border-b-0 border-r-0 px-12 h-full rounded-none bg-white hover:bg-pink-400 transition-colors text-lg"
+              className="w-full text-left p-4 hover:bg-black hover:text-white flex items-center text-base font-medium"
             >
               Log in
             </Link>
 
             <Link
               href="/sign-up"
-              className="border-l border-t-0 border-b-0 border-r-0 px-12 h-full rounded-none bg-black text-white hover:bg-pink-400 hover:text-black transition-colors text-lg"
+               className="w-full text-left p-4 hover:bg-black hover:text-white flex items-center text-base font-medium"
             >
               Start selling
             </Link>
